@@ -28,36 +28,25 @@ MINUTE_START = base64.decode("iVBORw0KGgoAAAANSUhEUgAAAA0AAAAgCAYAAADJ2fKUAAAAAX
 MINUTE_LOOP = base64.decode("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")
 
 def main(config):
-    speed = int(config.str("speed",2))   #takes user input on how many loops to spin before displaying time
+    speed = int(config.str("speed",2))   #takes user input equating to how many loops to spin before displaying time
 
-    total_hour = list(time.now().format("3:04").partition(":")[0].elems())  #gets the hour as a list of single character strings
-    ten_hour_value = 0
-    hour_value = total_hour[0]
-    if(len(total_hour)==2): #if theres a ten's digit for hours, set ten_hour to 1 and fix hour
-        ten_hour_value = 1
-        hour_value = total_hour[1]
-    total_minute = list(time.now().format("3:04").partition(":")[2].elems())  #gets minute at a list of single character strings 
-    ten_minute_value = total_minute[0]
-    minute_value = total_minute[1]
+    current_time = get_current_time_as_tuple()
+    ten_hour_value =    current_time[0]
+    hour_value =        current_time[1]
+    ten_minute_value =  current_time[2]
+    minute_value =      current_time[3]
 
-
-    ten_hour_images =   [TEN_HOUR_START,TEN_HOUR_TO_BLANK,TEN_HOUR_IS_BLANK,TEN_HOUR_LOOP]   #set default values
-    hour_images =       [HOUR_START,TEN_HOUR_TO_BLANK,TEN_HOUR_IS_BLANK,HOUR_LOOP]
-    ten_minute_images = [TEN_MINUTE_START,TEN_HOUR_TO_BLANK,TEN_HOUR_IS_BLANK,TEN_MINUTE_LOOP]
-    minute_images =     [MINUTE_START,TEN_HOUR_TO_BLANK,TEN_HOUR_IS_BLANK,MINUTE_LOOP]
-    spacer_images =     [SPACER,SPACER,SPACER]
+    ten_hour_images =   set_ten_hour_images(ten_hour_value)     #call helper functions to determine which images to use depending on the time
+    hour_images =       set_hour_images(hour_value)
+    ten_minute_images = set_ten_minute_images(ten_minute_value)
+    minute_images =     set_minute_images(minute_value)
+    spacer_images =     [SPACER,SPACER,SPACER]  #because these dont change on the time, we can directly set their values
     lever_images =      [LEVER,LEVER_PULL,LEVER]
 
-    if(ten_hour_value==1):
-        ten_hour_images.pop(2)
-        ten_hour_images.pop(1)
-        ten_hour_images.insert(1,TEN_HOUR_TO_ONE)
-        ten_hour_images.insert(2,TEN_HOUR_IS_ONE)
 
-
-    spacer_frames =     render_frame_list(spacer_images,26,0,0,speed,48)
-    lever_frames =      render_frame_list(lever_images,56,0,15,speed,0)
-    ten_hour_frames =   render_frame_list(ten_hour_images,0,15,22,speed,24)
+    spacer_frames =     render_frame_list(spacer_images,26,0,0,speed,48)    #turn the images into an Animation object so we can play them side-by-side in a Row
+    lever_frames =      render_frame_list(lever_images,56,0,15,speed,0)     #also inserts the wait time before subsequent slots start
+    ten_hour_frames =   render_frame_list(ten_hour_images,0,15,22,speed,24) #and adds in the loops to each animation
     hour_frames =       render_frame_list(hour_images,13,20,22,speed,24)
     ten_minute_frames = render_frame_list(ten_minute_images,30,25,22,speed,24)
     minute_frames =     render_frame_list(minute_images,43,30,22,speed,24)
@@ -66,7 +55,7 @@ def main(config):
         child = render.Stack(
             children=[
                 render.Sequence(
-                    children = lever_frames
+                    children = lever_frames #must be rendered right to left so that the spacing blank images are drawn over, and they dont draw over our clock
                 ),
                 render.Sequence(
                     children = minute_frames
@@ -87,9 +76,9 @@ def main(config):
         )
     )
 
-def render_frame(image,position,frames): #helper function
-    renderedImage = render.Image(image)
-    blank_image = render.Image(BLANK)
+def render_frame(image,position,frames): #given an image, its horizontal displacement, and its frame length
+    renderedImage = render.Image(image)  #returns an Animation object displaced the correct amount with white
+    blank_image = render.Image(BLANK)    #spacing image, meant to be drawn over in a Stack
     trans_child_children = [
                 renderedImage
                 ]
@@ -106,10 +95,10 @@ def render_frame(image,position,frames): #helper function
         )
     )
 
-def render_frame_list(images,position,waitTime,movementFrames,loops,loopFrames):
-    new_frames = []
-    new_frames.append(render_frame(images[0],position,waitTime))
-    if(len(images)>3):
+def render_frame_list(images,position,waitTime,movementFrames,loops,loopFrames):    #combines the starting frame, looping
+    new_frames = []                                                                 #gif, finishing gif, and final frame
+    new_frames.append(render_frame(images[0],position,waitTime))                    #all into one list of Animation objects.
+    if(len(images)>3):                                                              #Meant to be played as a Sequence
         for i in range(loops):
             new_frames.append(render_frame(images[3],position,loopFrames))
     new_frames.append(render_frame(images[1],position,movementFrames))
@@ -119,11 +108,11 @@ def render_frame_list(images,position,waitTime,movementFrames,loops,loopFrames):
 def get_schema():
     options = [
         schema.Option(
-            display = "Slow",
+            display = "Slow",   #Slow speed = 3 loops before displaying time
             value = "3",
         ),
         schema.Option(
-            display = "Medium",
+            display = "Medium", #Medium = 2 loops...etc
             value = "2",
         ),
         schema.Option(
@@ -144,3 +133,47 @@ def get_schema():
             ),
         ],
     )
+
+def get_current_time_as_tuple():  #returns the time as a tuple of each digit
+    total_hour = list(time.now().format("3:04").partition(":")[0].elems())  #gets the hour as a list of single character strings
+    ten_hour_value = 0
+    hour_value = total_hour[0]
+    if(len(total_hour)==2): #if theres a ten's digit for hours, set ten_hour to 1 and fix hour
+        ten_hour_value = 1
+        hour_value = total_hour[1]
+    total_minute = list(time.now().format("3:04").partition(":")[2].elems())  #gets minute at a list of single character strings 
+    ten_minute_value = total_minute[0]
+    minute_value = total_minute[1]
+    return (ten_hour_value,hour_value,ten_minute_value,minute_value)
+
+def swap_time(old_images,new_movement,new_final):   #swaps out middle 2 values in list with new given values
+    old_images.pop(2)
+    old_images.pop(1)
+    old_images.insert(1,new_movement)
+    old_images.insert(2,new_final)
+    return old_images
+
+def set_ten_hour_images(ten_hour_value):
+    return_images = [TEN_HOUR_START,TEN_HOUR_TO_BLANK,TEN_HOUR_IS_BLANK,TEN_HOUR_LOOP]  #default values
+    if(ten_hour_value==1):
+        return_images = swap_time(return_images,TEN_HOUR_TO_ONE,TEN_HOUR_IS_ONE)
+    return return_images
+
+def set_hour_images(hour_value):
+    return_images = [HOUR_START,TEN_HOUR_TO_BLANK,TEN_HOUR_IS_BLANK,HOUR_LOOP]
+    if(hour_value==1):
+        return_images = swap_time(return_images,TEN_HOUR_TO_ONE,TEN_HOUR_IS_ONE)
+    #TODO: Add the rest of the times, maybe a switch statement
+    return return_images
+
+def set_ten_minute_images(ten_minute_value):
+    return_images = [TEN_HOUR_START,TEN_HOUR_TO_BLANK,TEN_HOUR_IS_BLANK,TEN_HOUR_LOOP]
+    if(ten_minute_value==1):
+        return_images = swap_time(return_images,TEN_HOUR_TO_ONE,TEN_HOUR_IS_ONE)
+    return return_images
+
+def set_minute_images(minute_value):
+    return_images = [TEN_HOUR_START,TEN_HOUR_TO_BLANK,TEN_HOUR_IS_BLANK,TEN_HOUR_LOOP]
+    if(minute_value==1):
+        return_images = swap_time(return_images,TEN_HOUR_TO_ONE,TEN_HOUR_IS_ONE)
+    return return_images
