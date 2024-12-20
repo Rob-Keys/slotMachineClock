@@ -205,16 +205,16 @@ def swap_time(old_images,new_movement,new_final):   #swaps out middle 2 values i
 
 def set_ten_hour_images(ten_hour_value):
     return_images = [TEN_HOUR_START,TEN_HOUR_TO_BLANK,TEN_HOUR_IS_BLANK,TEN_HOUR_LOOP]
-    if(ten_hour_value==1):                                                              #Would love to use a switch statement
-        return_images = swap_time(return_images,TEN_HOUR_TO_ONE,TEN_HOUR_IS_ONE)        #for all these functions, but as far as
-    return return_images                                                                #I can tell, Starlark doesnt support switch statements
+    if(ten_hour_value==1):
+        return_images = swap_time(return_images,TEN_HOUR_TO_ONE,TEN_HOUR_IS_ONE)
+    return return_images
 
 def set_hour_images(hour_value):
     return_images = [HOUR_START,HOUR_TO_ZERO,HOUR_IS_ZERO,HOUR_LOOP]
     if(hour_value==1):
-        return_images = swap_time(return_images,HOUR_TO_ONE,HOUR_IS_ONE)
-    elif(hour_value==2):
-        return_images = swap_time(return_images,HOUR_TO_TWO,HOUR_IS_TWO)
+        return_images = swap_time(return_images,HOUR_TO_ONE,HOUR_IS_ONE)    # Would love to use a switch statement
+    elif(hour_value==2):                                                    # for all these functions, but as far as
+        return_images = swap_time(return_images,HOUR_TO_TWO,HOUR_IS_TWO)    # I can tell, Starlark doesnt support switch statements
     elif(hour_value==3):
         return_images = swap_time(return_images,HOUR_TO_THREE,HOUR_IS_THREE)
     elif(hour_value==4):
@@ -236,13 +236,13 @@ def set_ten_minute_images(ten_minute_value):
     if(ten_minute_value==1):
         return_images = swap_time(return_images,TEN_MINUTE_TO_ONE,TEN_MINUTE_IS_ONE)
     elif(ten_minute_value==2):
-        return_images = swap_time(return_images,TEN_MINUTE_TO_ONE,TEN_MINUTE_IS_ONE)
+        return_images = swap_time(return_images,TEN_MINUTE_TO_TWO,TEN_MINUTE_IS_TWO)
     elif(ten_minute_value==3):
-        return_images = swap_time(return_images,TEN_MINUTE_TO_ONE,TEN_MINUTE_IS_ONE)
+        return_images = swap_time(return_images,TEN_MINUTE_TO_THREE,TEN_MINUTE_IS_THREE)
     elif(ten_minute_value==4):
-        return_images = swap_time(return_images,TEN_MINUTE_TO_ONE,TEN_MINUTE_IS_ONE)
+        return_images = swap_time(return_images,TEN_MINUTE_TO_FOUR,TEN_MINUTE_IS_FOUR)
     elif(ten_minute_value==5):
-        return_images = swap_time(return_images,TEN_MINUTE_TO_ONE,TEN_MINUTE_IS_ONE)
+        return_images = swap_time(return_images,TEN_MINUTE_TO_FIVE,TEN_MINUTE_IS_FIVE)
     return return_images
 
 def set_minute_images(minute_value):
